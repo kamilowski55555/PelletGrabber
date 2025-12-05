@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Package manager caches (uv, pip, poetry)
+.uv/
+pip-wheel-metadata/
+pip-log.txt
+poetry.lock
+.poetry/
+
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML outputs
+checkpoints/
+experiments/
+logs/
+wandb/
+tensorboard/
+
+# Data
+*.csv
+*.tsv
+*.zip
+*.npz
+*.npy
+data/
+datasets/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs (IntelliJ, PyCharm, Rider, etc.)
+# User-specific files
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/httpRequests/
+# Don't ignore .iml files - they should be shared
