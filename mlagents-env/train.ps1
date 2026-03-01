@@ -1,6 +1,6 @@
 param(
   [string]$Config = "config.yaml",
-  [string]$RunPrefix = "camera",
+  [string]$RunPrefix = "maze",
   [switch]$Tensorboard,
   [int]$Port = 6006
 )

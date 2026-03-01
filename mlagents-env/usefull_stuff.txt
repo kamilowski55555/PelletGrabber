@@ -1,0 +1,6 @@
+
+//tensorboard
+tensorboard --logdir results --reload_interval 5
+
+//odpalenie runa
+mlagents-learn config.yaml --run-id test_run --debug
